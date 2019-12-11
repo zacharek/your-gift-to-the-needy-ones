@@ -1,0 +1,78 @@
+header{
+  margin-top: 20px;
+  z-index: 1;
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  align-items: flex-end;
+  flex-direction: column;
+  box-shadow: 0 3px 6px #00000029;
+  .sign__menu{
+    font-size: calc(10px + 0.5vmin);
+    display: none;
+    .sign__in{
+      padding: 10px;
+      border: 1px solid white;
+      &:hover{
+        border: 1px solid $color-main;
+      }
+    }
+    .sign__up{
+      padding: 10px;
+      margin-right: 10vw;
+      border: 1px solid $color-important;
+      &:hover{
+        background-color: $color-important;
+      }
+    }
+  }
+  .hamburger--squeeze{
+    margin: 2vmin;
+    border: none;
+    background-color: white;
+  }
+  nav{
+    display: none;
+    ul {
+      font-size: calc(10px + 1vmin);
+      margin-right: 10vw;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      li{
+        background: white;
+        padding: 20px;
+        border: 1px solid white;
+        &:hover{
+          border: 1px solid $color-main;
+        }
+      }
+    }
+  }
+}
+.trigger__menu{
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  text-align: end;
+}
+.visible{
+  display: flex;
+}
+
+/*Desktop view*/
+
+@media screen and (min-width: 768px) {
+  header{
+    box-shadow: none;
+    .sign__menu{
+      display: flex;
+    }
+    .hamburger--squeeze{
+      display: none;
+    }
+    nav{
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class HomeOrganizationStats extends Component{
+class Footer extends Component{
     render() {
         return (
             <>
@@ -10,4 +10,4 @@ class HomeOrganizationStats extends Component{
     }
 }
 
-export default HomeOrganizationStats;
+export default Footer;

@@ -1,0 +1,52 @@
+.main__message__mobile{
+
+}
+.main__message{
+  height: 90vh;
+  width: 90vw;
+  margin-right: 10vw;
+  display: none;
+  .main__message__image{
+    background-image: url("../../assets/Home-Hero-Image.jpg");
+    background-position: right;
+    width: 50%;
+  }
+  .main__message__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    p{
+      font-size: calc(10px + 2.5vmin);
+      margin: 0;
+    }
+    .decoration{
+      background-image: url("../../assets/Decoration.svg");
+      height: 33px;
+      width: 253px;
+    }
+    .take__actions{
+      display: flex;
+      width: 100%;
+      .action{
+        text-transform: uppercase;
+        padding: 10px 30px;
+        width: 40%;
+        font-size: calc(10px + 2vmin);
+        border: 1px solid $color-main;
+      }
+    }
+  }
+}
+
+/*Desktop view*/
+
+@media screen and (min-width: 768px) {
+  .main__message__mobile{
+    display: none;
+  }
+  .main__message{
+    display: flex;
+  }
+}

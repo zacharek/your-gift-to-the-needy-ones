@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class HomeFourSteps extends Component{
+class AppStats extends Component{
     render() {
         return (
             <>
@@ -10,4 +10,4 @@ class HomeFourSteps extends Component{
     }
 }
 
-export default HomeFourSteps;
+export default AppStats;
