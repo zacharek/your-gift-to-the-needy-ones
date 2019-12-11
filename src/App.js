@@ -10,7 +10,9 @@ class App extends Component{
     return (
         <HashRouter>
           <>
-            <Route exact path='/' component={Home} isUserLogged={this.state.isUserLogged}/>
+            <Route exact path='/' component={props => (
+                <Home {...props} isUserLogged={this.state.isUserLogged} />
+            )}/>
           </>
         </HashRouter>);
     }

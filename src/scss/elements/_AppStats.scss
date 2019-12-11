@@ -1,0 +1,28 @@
+.app__stats{
+  width: 100%;
+  background-image: url("../../assets/3ColumnsBackground.png");
+  display: flex;
+  justify-content: space-evenly;
+  .single__stat{
+    padding: 3vh;
+    text-align: center;
+    width: 20%;
+    color: $color-main;
+    h2{
+      font-size: calc(10px + 7vmin);
+      font-weight: 300;
+      padding: 1vh;
+    }
+    h3{
+      padding: 1vh;
+      text-transform: uppercase;
+      font-size: calc(10px + 1vmin);
+    }
+    p{
+      padding: 1vh;
+      font-size: calc(6px + 1vmin);
+      font-family: $font-alt;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.four__steps{
+  margin: 4vh auto;
+  text-align: center;
+  h2{
+    font-size: calc(10px + 3vmin);
+  }
+  .decoration{
+    margin: 3vh auto 3vh auto;
+    background-image: url("../../assets/Decoration.svg");
+    height: 33px;
+    width: 253px;
+  }
+  .four__steps__content{
+    display: flex;
+    justify-content: center;
+    background: $color-background;
+    padding: 5vh 0;
+    .step{
+      padding: 2vmin 6vmin;
+      display: flex;
+      flex-direction: column;
+      width: 15%;
+      align-items: center;
+    }
+    .icon{
+      height: 8vmin;
+      width: 8vmin;
+      background-size: contain;
+    }
+    .line{
+      margin: 1vh;
+      height: 1px;
+      width: 8vmin;
+      background: $color-main;
+    }
+    .first .icon{
+        background-image: url("../../assets/Icon-1.svg");
+    }
+    .second .icon{
+        background-image: url("../../assets/Icon-2.svg");
+    }
+    .third .icon{
+        background-image: url("../../assets/Icon-3.svg");
+    }
+    .fourth .icon{
+        background-image: url("../../assets/Icon-4.svg");
+    }
+  }
+  .action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 10%;
+    margin: 3vh auto;
+    font-weight: 300;
+    font-size: calc(10px + 2.5vmin);
+    border: 1px solid $color-main;
+  }
+}

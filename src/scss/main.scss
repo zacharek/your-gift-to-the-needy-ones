@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,600&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i|Open+Sans:300,400,600&display=swap&subset=latin-ext');
 @import "~normalize.css/normalize.css";
 @import "~hamburgers/_sass/hamburgers/hamburgers";
 @import "settings/fonts";
@@ -7,3 +7,5 @@
 @import "elements/App";
 @import "elements/Header";
 @import "elements/MainMessage";
+@import "elements/AppStats";
+@import "elements/FourSteps";

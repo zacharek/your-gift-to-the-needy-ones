@@ -1,4 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: $font-base;
-  //background: $color-main-background;
+}
+a{
+  text-decoration: none;
+  color: black;
 }

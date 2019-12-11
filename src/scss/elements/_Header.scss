@@ -1,9 +1,8 @@
 header{
   margin-top: 20px;
-  z-index: 1;
   display: flex;
   width: 100vw;
-  position: fixed;
+  position: absolute;
   align-items: flex-end;
   flex-direction: column;
   box-shadow: 0 3px 6px #00000029;
@@ -40,10 +39,9 @@ header{
       display: flex;
       flex-direction: row;
       li{
-        background: white;
         padding: 20px;
         border: 1px solid white;
-        &:hover{
+        &:first-of-type{
           border: 1px solid $color-main;
         }
       }

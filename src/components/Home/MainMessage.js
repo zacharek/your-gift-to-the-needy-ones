@@ -17,8 +17,8 @@ class MainMessage extends Component{
                         <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                         <div className={"decoration"}/>
                         <div className={"take__actions"}>
-                            <div className={"action"}>oddaj rzeczy</div>
-                            <div className={"action"}>zorganizuj zbiórkę</div>
+                            <div className={"action"}>oddaj<br/>rzeczy</div>
+                            <div className={"action"}>zorganizuj<br/>zbiórkę</div>
                         </div>
                     </div>
                 </section>

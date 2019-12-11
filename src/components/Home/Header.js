@@ -1,4 +1,7 @@
 import React, {Component} from "react";
+import {Link} from 'react-router-dom';
+import LinkScroll from 'react-scroll'
+
 class Header extends Component{
     state={
       menuTriggered:false
@@ -11,8 +14,8 @@ class Header extends Component{
             <>
             <header>
                 <div className="sign__menu">
-                    <div className="sign__in">Zaloguj</div>
-                    <div className="sign__up">Załóż konto</div>
+                    <div className="sign__in"><Link to="/logowanie">Zaloguj</Link></div>
+                    <div className="sign__up"><Link to="/rejestracja">Załóż konto</Link></div>
                 </div>
                 <button onClick={this.handleClick} className={`hamburger--squeeze ${this.state.menuTriggered&&"is-active"}`} type="button">
                         <span className="hamburger-box">

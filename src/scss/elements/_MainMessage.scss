@@ -17,23 +17,29 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+    text-align: center;
     p{
-      font-size: calc(10px + 2.5vmin);
-      margin: 0;
+      font-size: calc(10px + 3vmin);
     }
     .decoration{
+      margin: 3vh auto 6vh auto;
       background-image: url("../../assets/Decoration.svg");
       height: 33px;
       width: 253px;
     }
     .take__actions{
       display: flex;
+      justify-content: space-evenly;
       width: 100%;
+      height: 12vh;
       .action{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-transform: uppercase;
-        padding: 10px 30px;
         width: 40%;
-        font-size: calc(10px + 2vmin);
+        font-weight: 300;
+        font-size: calc(10px + 2.5vmin);
         border: 1px solid $color-main;
       }
     }
