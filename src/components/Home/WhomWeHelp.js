@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 
-class WhoWeHelp extends Component{
+class WhomWeHelp extends Component{
     render() {
         return (
-            <section className="who__we__help">
+            <section className="whom__we__help">
                 <h2>Komu pomagamy?</h2>
                 <div>
                     <div>
@@ -21,4 +21,4 @@ class WhoWeHelp extends Component{
     }
 }
 
-export default WhoWeHelp;
+export default WhomWeHelp;

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {NavLink} from "react-router-dom";
 
 class MainMessage extends Component{
     render() {
@@ -17,8 +18,8 @@ class MainMessage extends Component{
                         <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                         <div className={"decoration"}/>
                         <div className={"take__actions"}>
-                            <div className={"action"}>oddaj<br/>rzeczy</div>
-                            <div className={"action"}>zorganizuj<br/>zbiórkę</div>
+                            <div className={"action"}><NavLink to="/logowanie">oddaj<br/>rzeczy</NavLink></div>
+                            <div className={"action"}><NavLink to="/logowanie">zorganizuj<br/>zbiórkę</NavLink></div>
                         </div>
                     </div>
                 </section>

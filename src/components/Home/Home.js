@@ -4,7 +4,7 @@ import MainMessage from "./MainMessage";
 import AppStats from "./AppStats";
 import FourSteps from "./FourSteps";
 import AboutUS from "./AboutUS";
-import WhoWeHelp from "./WhoWeHelp";
+import WhomWeHelp from "./WhomWeHelp";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -17,7 +17,7 @@ class Home extends Component{
               <AppStats/>
               <FourSteps/>
               <AboutUS/>
-              <WhoWeHelp/>
+              <WhomWeHelp/>
               <Contact/>
               <Footer/>
             </>
