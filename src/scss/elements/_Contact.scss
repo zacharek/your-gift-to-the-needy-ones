@@ -78,19 +78,21 @@
       cursor: pointer;
     }
   }
-}
-footer{
-  width: 100%;
-  text-align: center;
-  .icon{
-    display: inline-block;
-    height: 3vmin;
-    width: 3vmin;
-  }
-  .facebook{
-    background: url('../../assets/Facebook.svg') 0% 0% no-repeat padding-box;
-  }
-  .instagram{
-    background: url('../../assets/Instagram.svg') 0% 0% no-repeat padding-box;
+  footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    .icon{
+      display: inline-block;
+      height: 3vmin;
+      width: 3vmin;
+    }
+    .facebook{
+      background: url('../../assets/Facebook.svg') 0% 0% no-repeat padding-box;
+    }
+    .instagram{
+      background: url('../../assets/Instagram.svg') 0% 0% no-repeat padding-box;
+    }
   }
 }

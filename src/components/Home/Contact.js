@@ -22,13 +22,14 @@ class Contact extends Component{
                             <input type="submit" value='Wyślij'/>
                         </form>
                     </div>
+                    <footer>
+                        <p>Copyright by Coders Lab
+                            <div className="icon facebook"/>
+                            <div className="icon instagram"/>
+                        </p>
+                    </footer>
                 </section>
-                <footer>
-                    <p>Copyright by Coders Lab
-                        <div className="icon facebook"/>
-                        <div className="icon instagram"/>
-                    </p>
-                </footer>
+
             </>
         )
     }
