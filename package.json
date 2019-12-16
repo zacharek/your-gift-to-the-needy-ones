@@ -2,7 +2,9 @@
   "name": "your-gift-to-the-needy-ones",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zacharek.github.io/your-gift-to-the-needy-ones",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "hamburgers": "^1.1.3",
     "node-sass": "^4.13.0",
     "normalize.css": "^8.0.1",
@@ -16,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

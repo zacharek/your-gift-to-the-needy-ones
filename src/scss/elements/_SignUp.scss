@@ -1,0 +1,69 @@
+.register__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .register__content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      font-size: calc(10px + 3vmin);
+      font-weight: 400;
+    }
+    .decoration{
+      margin: 3vh auto 3vh auto;
+      background-image: url("../../assets/Decoration.svg");
+      height: 33px;
+      width: 253px;
+    }
+    form {
+      background: $color-background;
+      margin-top: 3vh;
+      width: 50%;
+      padding: 5vmin;
+      h3{
+        font-size: calc(8px + 1vmin);
+      }
+      div p{
+        font-size: calc(4px + 0.5vmin);
+        color:red
+      }
+      input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #707070;
+        overflow: hidden;
+        margin: 1vh auto;
+        &:focus {
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+  }
+  .buttons {
+    width: 25%;
+    margin-top: 3vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    button {
+      color: $color-main;
+      background: none;
+      font-weight: lighter;
+      padding: 1vh;
+      border: 1px solid white;
+      &:hover {
+        cursor: pointer;
+      }
+      &:last-of-type{
+        border: 1px solid $color-main;
+      }
+    }
+  }
+}

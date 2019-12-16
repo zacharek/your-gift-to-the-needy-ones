@@ -6,7 +6,6 @@ import FourSteps from "./FourSteps";
 import AboutUS from "./AboutUS";
 import WhomWeHelp from "./WhomWeHelp";
 import Contact from "./Contact";
-import Footer from "./Footer";
 
 class Home extends Component{
     render() {
@@ -19,7 +18,6 @@ class Home extends Component{
               <AboutUS/>
               <WhomWeHelp/>
               <Contact/>
-              <Footer/>
             </>
         )
     }

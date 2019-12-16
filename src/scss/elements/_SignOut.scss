@@ -1,0 +1,44 @@
+.logout__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .logout__content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+      font-size: calc(10px + 3vmin);
+      font-weight: 400;
+    }
+    .decoration{
+      margin: 3vh auto 3vh auto;
+      background-image: url("../../assets/Decoration.svg");
+      height: 33px;
+      width: 253px;
+    }
+  }
+  .buttons {
+    width: 25%;
+    margin-top: 3vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    button {
+      color: $color-main;
+      background: none;
+      font-weight: lighter;
+      padding: 1vh;
+      border: 1px solid white;
+      &:hover {
+        cursor: pointer;
+      }
+      &:last-of-type{
+        border: 1px solid $color-main;
+      }
+    }
+  }
+}

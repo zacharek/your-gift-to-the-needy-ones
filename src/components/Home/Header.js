@@ -18,13 +18,13 @@ class Header extends Component{
                     <div className="sign__up"><NavLink to="/rejestracja">Załóż konto</NavLink></div>
                 </div>
                 <button onClick={this.handleClick} className={`hamburger--squeeze ${this.state.menuTriggered&&"is-active"}`} type="button">
-                        <span className="hamburger-box">
-                            <span className="hamburger-inner"/>
-                        </span>
+                    <span className="hamburger-box">
+                        <span className="hamburger-inner"/>
+                    </span>
                 </button>
                 <nav>
                     <ul>
-                        <li>Start</li>
+                        <li><NavLink to='/'>Start</NavLink></li>
                         <li><Link to='four__steps' spy={true} smooth={true} duration={1000}>O co chodzi?</Link></li>
                         <li><Link to='about__us' spy={true} smooth={true} duration={1000}>O nas</Link></li>
                         <li><Link to='whom__we__help' spy={true} smooth={true} duration={1000}>Fundacja i organizacje</Link></li>
@@ -33,11 +33,11 @@ class Header extends Component{
                 </nav>
             </header>
                 <ul className={`trigger__menu ${this.state.menuTriggered&&"visible"}`}>
-                    <li>Start</li>
-                    <li>O co chodzi?</li>
-                    <li>O nas</li>
-                    <li>Fundacje i organizacje</li>
-                    <li>Kontakt</li>
+                    <li><NavLink to='/'>Start</NavLink></li>
+                    <li><Link to='four__steps' spy={true} smooth={true} duration={1000}>O co chodzi?</Link></li>
+                    <li><Link to='about__us' spy={true} smooth={true} duration={1000}>O nas</Link></li>
+                    <li><Link to='whom__we__help' spy={true} smooth={true} duration={1000}>Fundacja i organizacje</Link></li>
+                    <li><Link to='contact' spy={true} smooth={true} duration={1000}>Kontakt</Link></li>
                 </ul>
             </>
         )
