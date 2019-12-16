@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/your-gift-to-the-needy-ones/static/css/main.a25915da.chunk.css",
+    "main.js": "/your-gift-to-the-needy-ones/static/js/main.e9011c7d.chunk.js",
+    "main.js.map": "/your-gift-to-the-needy-ones/static/js/main.e9011c7d.chunk.js.map",
+    "runtime-main.js": "/your-gift-to-the-needy-ones/static/js/runtime-main.93dad54b.js",
+    "runtime-main.js.map": "/your-gift-to-the-needy-ones/static/js/runtime-main.93dad54b.js.map",
+    "static/css/2.764ccc25.chunk.css": "/your-gift-to-the-needy-ones/static/css/2.764ccc25.chunk.css",
+    "static/js/2.5a9be9d9.chunk.js": "/your-gift-to-the-needy-ones/static/js/2.5a9be9d9.chunk.js",
+    "static/js/2.5a9be9d9.chunk.js.map": "/your-gift-to-the-needy-ones/static/js/2.5a9be9d9.chunk.js.map",
+    "index.html": "/your-gift-to-the-needy-ones/index.html",
+    "precache-manifest.ea8eb2904cd06499f906f30778284671.js": "/your-gift-to-the-needy-ones/precache-manifest.ea8eb2904cd06499f906f30778284671.js",
+    "service-worker.js": "/your-gift-to-the-needy-ones/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/your-gift-to-the-needy-ones/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.a25915da.chunk.css.map": "/your-gift-to-the-needy-ones/static/css/main.a25915da.chunk.css.map",
+    "static/media/main.scss": "/your-gift-to-the-needy-ones/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93dad54b.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.5a9be9d9.chunk.js",
+    "static/css/main.a25915da.chunk.css",
+    "static/js/main.e9011c7d.chunk.js"
+  ]
+}
