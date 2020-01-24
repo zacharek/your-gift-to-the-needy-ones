@@ -101,18 +101,20 @@
     margin-bottom: 2vh;
     .icon{
       display: inline-block;
-      height: 3vmin;
-      width: 3vmin;
+      height: 4vmin;
+      width: 4vmin;
       position: absolute;
       bottom: 0;
     }
     .facebook{
-      right: 8vw;
+      right: 9vw;
       background: url('../../assets/Facebook.svg') 0% 0% no-repeat padding-box;
+      background-size: contain;
     }
     .instagram{
       right: 5vw;
       background: url('../../assets/Instagram.svg') 0% 0% no-repeat padding-box;
+      background-size: contain;
     }
   }
 }
