@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0acea47680acdc50e1da1e4dcab8360e",
+    "revision": "5e5126efdbdbce901325128874513e81",
     "url": "/your-gift-to-the-needy-ones/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/your-gift-to-the-needy-ones/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "8b69636767e14d3b0c7f",
-    "url": "/your-gift-to-the-needy-ones/static/css/main.a25915da.chunk.css"
+    "revision": "af748210295cbb349bb0",
+    "url": "/your-gift-to-the-needy-ones/static/css/main.cd23cccc.chunk.css"
   },
   {
     "revision": "abb2a6a3b182f14ea416",
     "url": "/your-gift-to-the-needy-ones/static/js/2.5a9be9d9.chunk.js"
   },
   {
-    "revision": "8b69636767e14d3b0c7f",
+    "revision": "af748210295cbb349bb0",
     "url": "/your-gift-to-the-needy-ones/static/js/main.e9011c7d.chunk.js"
   },
   {

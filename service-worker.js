@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/your-gift-to-the-needy-ones/precache-manifest.ea8eb2904cd06499f906f30778284671.js"
+  "/your-gift-to-the-needy-ones/precache-manifest.d0da0c8eaec01f0fa9e655c1692e42d1.js"
 );
 
 self.addEventListener('message', (event) => {
