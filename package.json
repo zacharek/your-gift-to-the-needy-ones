@@ -2,7 +2,7 @@
   "name": "your-gift-to-the-needy-ones",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zacharek.github.io/your-gift-to-the-needy-ones",
+  "homepage": "https://zacharek.github.io/your-gift-to-the-poor-ones",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "hamburgers": "^1.1.3",
